@@ -5,7 +5,7 @@
  *
  */
 
-$host       = "localhost";
+$host       = "mysql.test-php-app.svc.cluster.local";
 $username   = "root";
 $password   = "root";
 $dbname     = "test";
