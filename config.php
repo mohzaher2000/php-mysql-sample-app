@@ -5,7 +5,7 @@
  *
  */
 
-$host       = "mariadb.final-app.svc.cluster.local";
+$host       = "172.30.63.226";
 $username   = "app-user";
 $password   = "R3dH@t123";
 $dbname     = "test";
