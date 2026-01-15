@@ -1,6 +1,6 @@
 CREATE DATABASE $dbname;
 
-use getenv $dbname;
+use $dbname;
 
 CREATE TABLE users (
 	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
