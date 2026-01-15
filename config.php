@@ -5,8 +5,8 @@
  *
  */
 
-$host       = "172.30.193.166";
-$username   = "app-user";
+$host       = "database.php-application.svc.cluster.local";
+$username   = "user";
 $password   = "R3dH@t123";
 $dbname     = "test";
 $dsn        = "mysql:host=$host;dbname=$dbname";
