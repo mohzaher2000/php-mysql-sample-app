@@ -5,9 +5,9 @@
  *
  */
 
-$host       = "database.php-application.svc.cluster.local";
-$username   = "user";
-$password   = "R3dH@t123";
+$host       = getenv('HOST');
+$username   = getenv('DB_USER');
+$password   = getenv('DB_PASSWORD');
 $dbname     = "test";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
