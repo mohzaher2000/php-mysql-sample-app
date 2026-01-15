@@ -1,6 +1,6 @@
-CREATE DATABASE $dbname;
+CREATE DATABASE users;
 
-use $dbname;
+use users;
 
 CREATE TABLE users (
 	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
