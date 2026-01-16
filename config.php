@@ -5,10 +5,10 @@
  *
  */
 
-$host       = "php-db-svc.php-app.svc.cluster.local";
-$username   = "user";
-$password   = "redhat123";
-$dbname     = "test";
+$host       = getenv('DB_HOST');
+$username   = getenv('DB_USER');
+$password   = getenv('DB_PASSWORD');
+$dbname     = "users";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
